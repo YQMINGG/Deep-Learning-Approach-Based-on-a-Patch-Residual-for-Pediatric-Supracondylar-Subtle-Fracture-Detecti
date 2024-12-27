@@ -7,9 +7,10 @@ Supracondylar humerus fractures in children are one of the most common elbow fra
 
 # Download the Model
 You can download the model from the following link:
->>> https://huggingface.co/openai/diffusion-model-example <<<
+https://huggingface.co/openai/diffusion-model-example
 
-and save it to ./Weights_file/
+and save it to :
+./Weights_file/ 
 
 # Detection
 In order to examine the incoming X-ray images, run：
