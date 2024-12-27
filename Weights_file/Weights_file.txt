@@ -1,1 +1,5 @@
-
+# Download the Model
+You can download the model from the following link:
+https://huggingface.co/YMING222/FractionDetection/upload/main
+# Save to Specific Folder
+To download the model and save it to this folder.
