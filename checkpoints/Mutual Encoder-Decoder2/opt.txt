@@ -1,0 +1,37 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+                batchSize: 1                             
+          checkpoints_dir: ./checkpoints                 
+                  de_root: ./Repair/data/test_data/images
+                edge_root: ./Repair/data/test_data/edge  
+                 fineSize: 256                           
+                  gpu_ids: 0                             
+                 how_many: 50                            
+              in_channel1: 128                           
+              in_channel2: 64                            
+                init_gain: 0.02                          
+                init_type: normal                        
+            input_mask_nc: 21                            
+                 input_nc: 9                             
+                  isTrain: False                         	[default: None]
+               lambda_Gan: 0.2                           
+                lambda_L1: 1                             
+                 lambda_P: 0.2                           
+                 lambda_S: 250                           
+                mask_root: ./Repair/data/test_data/mask  
+                    model: training1                     
+                 nThreads: 2                             
+               n_layers_D: 3                             
+                     name: Mutual Encoder-Decoder2       
+                      ndf: 64                            
+                      ngf: 64                            
+                     norm: instance                      
+                    ntest: inf                           
+              num_workers: 0                             
+                output_nc: 3                             
+                    phase: paris_256                     
+              results_dir: E:\WZL\LunWen\MEDFE-master\results
+                  st_root: ./Repair/data/test_data/structure
+              use_dropout: False                         
+              which_epoch: 20                            
+----------------- End -------------------
